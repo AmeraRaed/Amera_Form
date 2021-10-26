@@ -1,0 +1,250 @@
+@font-face {
+    font-family: "Poppins-Regular";
+    src: url('../fonts/Poppins-Regular.ttf'); }
+  @font-face {
+    font-family: "Poppins-SemiBold";
+    src: url('../fonts/Poppins-SemiBold.ttf'); }
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.LoginForm{ 
+    background: linear-gradient(#89fffd,#ef32d9);
+    /* background: linear-gradient(#4bc0c8,#c779d0,#feac5e); */
+    background-size: cover;
+    width: 100%; 
+}
+.inner{
+    background-color: #fff;
+    padding: 20px;
+    max-width: 850px;
+    margin: auto;
+    display: flex;
+    width: 70%;
+}
+.img-holder{
+width: 50%;
+max-width: 850px;
+padding: 30px;
+height: 520px;
+}
+.GirlImg{
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    
+    /* max-width: 850px; */
+    
+}
+img{
+    width: 100%;
+    height: 490px;
+}
+form{
+    width: 50%;
+    max-width: 850px;
+    padding-top: 36px;
+    padding-left: 45px;
+    padding-right: 45px; 
+}
+h3{
+    text-transform: uppercase;
+    font-size: 25px;
+    font-family: "Poppins-SemiBold";
+    text-align: center;
+    margin-bottom: 28px; 
+}
+.form-wrapper{
+    position: relative;
+}
+.name-group{
+    display: flex;
+}
+.name-group input {
+    width: 50%; }
+.name-group input:first-child {
+      margin-right: 25px; 
+    }
+/* .form-wrapper span{
+    /* width: 10px;
+    height: 10px; 
+    position: absolute;
+    bottom: 9px;
+    right: 0;
+    font-size: 13px;
+    color: #333;
+    font-family: "Poppins-Regular";
+ } */
+ .name-group fa-user{
+    position: absolute;
+    bottom: 31px;
+    right: 0;
+    font-size: 13px;
+    color: #333;
+    font-family: "Poppins-Regular";
+  }
+.form-control{
+    border: 1px solid #333;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    display: block;
+    width: 100%;
+    height: 30px;
+    margin-bottom: 25px; 
+    padding:2px;
+    font-family: 'Tajawal', sans-serif;
+}
+.name-group:focus{
+    outline: none;
+}
+.form-control:focus {
+    outline: none; }
+select{
+    cursor: pointer;
+  /* padding-left: 20px;  */
+}
+.gender{
+    display: none;
+}
+.btn{
+    text-align: center;
+    margin: auto;
+}
+button{
+    margin: auto;
+  border: none;
+  width: 164px;
+  height: 51px;
+  margin-top: 40px;
+  cursor: pointer;
+  background:#dfecf4;
+  font-size: 18px;
+  color: #000;
+  font-weight: bold;
+  vertical-align: middle;
+  margin-bottom: 40px;
+}
+
+
+
+@media (max-width: 575.98px) { 
+    .inner{
+        background:#1a4f7e url(../img/9818de9331d2051113557366d092423a.jpg) center center no-repeat;
+        background-size: cover;
+        background-color: #fff;
+        padding: 20px;
+        max-width: 850px;
+        margin: auto;
+        width: 70%;
+    }
+    .img-holder{
+    width: 100%;
+    /* max-width: 850px; */
+    padding: 5px;
+    display: none;
+    }
+    .GirlImg{
+        background-size: cover;
+        width: 100%;
+        height: 150PX;
+        
+        
+        /* max-width: 850px; */
+        
+    }
+    form{
+        background-color:rgba(252, 253, 253, 0.8);
+        width: 100%;
+        padding-top: 36px;
+        padding-left: 20px;
+        padding-right: 20px; 
+    }
+    h3{
+        text-transform: uppercase;
+        font-size: 25px;
+        font-family: "Poppins-SemiBold";
+        text-align: center;
+        margin-bottom: 28px; 
+        /* color: #fff; */
+    }
+    .form-control{
+        border: 1px solid #000;
+        /* border: 1px solid #fff; */
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        display: block;
+        width: 100%;
+        height: 30px;
+        margin-bottom: 25px; 
+        padding:2px;
+        font-family: 'Tajawal', sans-serif;
+        color: #000;
+        font-weight: bold;
+        background: none;
+    }
+    button{
+        margin: auto;
+      border: none;
+      width: 164px;
+      height: 51px;
+      margin-top: 40px;
+      cursor: pointer;
+      background:#95e9fa;
+      font-size: 18px;
+      color: #000;
+      font-weight: bold;
+      vertical-align: middle;
+      margin-bottom: 40px;
+    }
+    
+
+ }
+
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .inner{
+        background-color: #fff;
+        padding: 20px;
+        max-width: 850px;
+        margin: auto;
+        width: 70%;
+    }
+    .img-holder{
+    width: 100%;
+    max-width: 850px;
+    padding: 30px;
+    height: 520px;
+    }
+    .GirlImg{
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+        
+        /* max-width: 850px; */
+        
+    }
+    img{
+        width: 100%;
+        height: 490px;
+    }
+    form{
+        width: 100%;
+        max-width: 850px;
+        padding-top: 36px;
+        padding-left: 20px;
+        padding-right: 20px; 
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {  }
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) {  }
+
+
+@media (min-width: 1200px) {  }
